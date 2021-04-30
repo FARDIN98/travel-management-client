@@ -1,0 +1,47 @@
+
+.menu-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    list-style: none;
+  }
+  
+  .menu-3 li {
+    width: 105px;
+    height: 50px;
+    transition: background-position-x 0.6s linear;
+    text-align: center;
+  }
+  .menu-3 li a {
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.45s;
+  }
+  .menu-3 li:hover {
+    -webkit-animation: line 1s;
+            animation: line 1s;
+  }
+  .menu-3 li:hover a {
+    color: #1be6d5;
+  }
+  .menu-3 li:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  @-webkit-keyframes line {
+    0% {
+      background-position-x: 390px;
+    }
+  }
+  
+  @keyframes line {
+    0% {
+      background-position-x: 390px;
+    }
+  }
+
+  .logo{
+      width: 10%;
+  }
